@@ -49,17 +49,17 @@ $(document).ready(function () {
 
     function checkKeyPressed(key) {
         console.log(key);
-        if (key.keyCode === "49") {
+        if (key.keyCode === 49) {
             whichColor = 'pink'
-        } else if (key.keyCode = "50") {
+        } else if (key.keyCode = 50) {
             whichColor = 'blue'
-        } else if (key.keyCode === "51") {
+        } else if (key.keyCode === 51) {
             whichColor = 'deeppink'
-        } else if (key.keyCode === "52") {
+        } else if (key.keyCode === 52) {
             whichColor = 'orange'
-        } else if (key.keyCode === "53") {
+        } else if (key.keyCode === 53) {
             whichColor = 'green'
-        } else if (key.keyCode === "48") {
+        } else if (key.keyCode === 48) {
             whichColor = 'white'
         }
     }
